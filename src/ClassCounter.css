@@ -1,0 +1,68 @@
+
+.class_counter_div{
+    padding: 2% 2%;
+    background-color: rgba(22, 23, 23, 0.362);
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black   ;
+    text-align: center;
+    width: 20rem;
+    height: 22rem;
+    border: 1px solid black;
+}
+h2{
+    text-decoration: underline;
+    color: gray;
+
+}
+.count{
+    font-size: 8rem;
+  line-height: 1.0;
+    margin: 0px 0 20px 0;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+.buttons button{
+    font-size: 1.8rem;
+    padding: 3% 10%;
+    border-radius: 40px;
+    cursor: pointer;
+    background: linear-gradient(rgba(128, 128, 128, 0.468),rgba(0, 0, 0, 0.596) 80%);
+    border:  1px solid gray;
+}
+.buttons button:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.596) ,rgba(128, 128, 128, 0.468) 80%);
+    color: #000;
+    transform: translateY(-3px);
+    transition: background-color 150ms ease, transform 150ms ease, box-shadow 150ms ease;
+    
+}
+
+.buttons button:active{
+    background-color: #ff6347;
+    border: 1px solid black;
+}
+
+.reset-btn{
+    margin-top: 15px;
+    font-size: 1.2rem;
+    padding: 3% 10%;
+    border: 1px solid gray;
+    border-radius: 40px;
+    cursor: pointer;
+    background: linear-gradient(25deg,rgb(57, 56, 55),rgba(0, 0, 0, 0.596) 80%);
+}
+.reset-btn:hover{
+    background: linear-gradient(25deg,rgba(0, 0, 0, 0.596) ,rgb(57, 56, 55) );
+    transform: translateY(-3px);
+    
+}
+.reset-btn:active{
+    transform: scale(1.1);
+    border: 1px solid black;
+}

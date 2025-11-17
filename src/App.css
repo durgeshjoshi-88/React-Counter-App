@@ -1,0 +1,19 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main_div{
+    
+    text-align: center;
+    width: 100vw;
+}
+.counter_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ h1{
+    text-align: center;
+}
